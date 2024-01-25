@@ -1,4 +1,4 @@
 x = 20.5
-print(type(X))
+print(type(x))
 
 float
