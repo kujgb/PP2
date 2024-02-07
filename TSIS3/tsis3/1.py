@@ -7,3 +7,7 @@ class StringManipulator:
 
     def printString(self):
         print(self.string.upper())
+
+manipulator = StringManipulator()
+manipulator.getString()
+manipulator.printString()
