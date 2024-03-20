@@ -10,7 +10,7 @@ clock = pygame.time.Clock()
 
 def play_next_song():
     global _songs
-    _songs = _songs[1:] + [_songs[0]]  # move current song to the back of the list
+    _songs = _songs[1:] + [_songs[0]]  
     pygame.mixer.music.load(_songs[0])
     pygame.mixer.music.play()
 
@@ -41,7 +41,7 @@ while not done:
                 play_next_song()
             elif event.key == pygame.K_LEFT:
                 play_previous_song()
-            elif event.key == pygame.K_p:  # Нажатие клавиши 'p' для запуска музыки
+            elif event.key == pygame.K_p:  
                 pygame.mixer.music.play()
                 playing = True
                 
