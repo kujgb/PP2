@@ -3,15 +3,15 @@ import os
 
 pygame.mixer.init()
 pygame.init()
-screen = pygame.display.set_mode((800, 800))
+screen = pygame.display.set_mode((700, 800))
 done = False
-songs = ['/Users/asust/Desktop/PP2-2/lab7/music/Aiga qarap.mp3', '/Users/asust/Desktop/PP2-2/lab7/music/Ne sebep.mp3']
+songs = ['/Users/asust/Desktop/PP2-2/lab7/2.music/music_1.mp3', '/Users/asust/Desktop/PP2-2/lab7/2.music/music_2.mp3']
 i = 0
 pygame.mixer.music.load(songs[i])
 pygame.mixer.music.play()
 paused = False
 
-background_image = pygame.image.load('/Users/asust/Desktop/PP2-2/lab7/music/1.jpg')
+background_image = pygame.image.load('/Users/asust/Desktop/PP2-2/lab7/2.music/1.jpg')
 background_rect = background_image.get_rect()
 
 while not done:
