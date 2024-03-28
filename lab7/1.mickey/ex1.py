@@ -6,9 +6,9 @@ screen = pg.display.set_mode((800, 800))
 window_title = pg.display.set_caption("Mickey Mouse Clock")
 clock = pg.time.Clock()
  
-bg_surf = pg.image.load('/Users/asust/Desktop/PP2-2/lab7/mickey/mainclock.png')
-leftarm_surf = pg.image.load('/Users/asust/Desktop/PP2-2/lab7/mickey/LeftArm.png')
-rightarm_surf = pg.image.load('/Users/asust/Desktop/PP2-2/lab7/mickey/RightArm.png')
+bg_surf = pg.image.load('/Users/asust/Desktop/PP2-2/lab7/1.mickey/mainclock.png')
+leftarm_surf = pg.image.load('/Users/asust/Desktop/PP2-2/lab7/1.mickey/LeftArm.png')
+rightarm_surf = pg.image.load('/Users/asust/Desktop/PP2-2/lab7/1.mickey/RightArm.png')
 bg_rect = bg_surf.get_rect(center = (400, 400))
 
 done = False
